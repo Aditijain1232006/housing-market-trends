@@ -14,10 +14,10 @@ This project focuses on transforming raw housing market data into actionable ins
 
 This project was developed collaboratively, divided into key Agile Epics. Below is the breakdown of team members and their core responsibilities:
 
-* **Arya Batham** * *Data Collection & Extraction:* Responsible for sourcing, collecting, and loading the initial dataset from the database.
-* **Khushi Tomar** * *Data Preparation & Visualization:* Handled data cleaning, ensuring high-quality inputs. Designed the responsive dashboard and generated unique visualizations. Authored the step-by-step project documentation.
-* **Ojasv Singh** * *Web Integration & Storyboard:* Designed the data storyboard, handled web publishing, and embedded the dashboard and stories into a UI using Flask.
-* **Nishant Vishwakarma** * *Performance Testing:* Conducted testing on the amount of data loaded, utilization of filters, and the rendering performance of visualizations and graphs.
+* **Akshat Kumar Verma** * *Data Collection & Extraction:* Responsible for sourcing, collecting, and loading the initial dataset from the database.
+* **Ayush Pratik** * *Data Preparation & Visualization:* Handled data cleaning, ensuring high-quality inputs. Designed the responsive dashboard and generated unique visualizations. Authored the step-by-step project documentation.
+* **Amit kumar Singh** * *Web Integration & Storyboard:* Designed the data storyboard, handled web publishing, and embedded the dashboard and stories into a UI using Flask.
+* **Amit Maurya** * *Performance Testing:* Conducted testing on the amount of data loaded, utilization of filters, and the rendering performance of visualizations and graphs.
 
 ## 🚀 Project Roadmap & Epics
 
