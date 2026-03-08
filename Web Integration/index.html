@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Housing Market Trends Dashboard</title>
+    <meta
+      name="description"
+      content="Housing Market Trends: An Analysis of Sale Prices and Features"
+    />
+    <meta
+      name="keywords"
+      content="housing, market trends, sale prices, tableau, dashboard"
+    />
+
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center"
+      >
+        <a href="#home" class="logo d-flex align-items-center me-auto">
+          <h1 class="sitename">Housing Trends</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu" aria-label="Primary Navigation">
+          <ul>
+            <li><a href="#home" class="active">Overview</a></li>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#story">Story</a></li>
+            <li><a href="#insights">Insights</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section id="home" class="hero section dark-background">
+        <img
+          src="assets/img/hero-bg.jpg"
+          alt="Housing background"
+          data-aos="fade-in"
+        />
+
+        <div
+          class="container d-flex flex-column align-items-center text-center"
+        >
+          <p class="hero-kicker" data-aos="fade-up">Data-Driven Real Estate Intelligence</p>
+          <h2 data-aos="fade-up" data-aos-delay="100">
+            Housing Market Trends: An Analysis of Sale Prices and Features
+          </h2>
+          <p data-aos="fade-up" data-aos-delay="200">
+            Explore how property attributes such as size, bedrooms, bathrooms,
+            renovation history, and location influence sale prices.
+          </p>
+          <div class="d-flex gap-3 mt-4" data-aos="fade-up" data-aos-delay="300">
+            <a href="#summary" class="btn-get-started">View Summary</a>
+            <a href="#dashboard" class="btn-get-started">View Dashboard</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="summary" class="services section">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Executive Summary</h2>
+          <p>
+            This page combines an exploratory dashboard, guided story, and practical analysis blocks for quick decision support.
+          </p>
+        </div>
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-md-4">
+              <article class="overview-card h-100">
+                <i class="bi bi-speedometer2"></i>
+                <h3>Market Pulse</h3>
+                <p>Track sale price behavior and distribution patterns across properties.</p>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="overview-card h-100">
+                <i class="bi bi-bar-chart-line"></i>
+                <h3>Feature Signals</h3>
+                <p>Evaluate how attributes like living area, bedrooms, and bathrooms impact value.</p>
+              </article>
+            </div>
+            <div class="col-md-4">
+              <article class="overview-card h-100">
+                <i class="bi bi-map"></i>
+                <h3>Location Lens</h3>
+                <p>Compare pricing trends by geography, zip codes, and neighborhood-level factors.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="dashboard" class="services section">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Interactive Dashboard</h2>
+          <p>
+            Analyze pricing patterns and feature relationships in a single interactive workspace.
+          </p>
+        </div>
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="viz-card">
+            <div
+              class="tableauPlaceholder"
+              id="viz1772955095039"
+              style="position: relative"
+            >
+              <noscript>
+                <a href="#">
+                  <img
+                    alt="Comprehensive House Data Analysis"
+                    src="https://public.tableau.com/static/images/Bo/Book1_17729540953960/Dashboard1/1_rss.png"
+                    style="border: none"
+                  />
+                </a>
+              </noscript>
+              <object class="tableauViz" style="display: none">
+                <param
+                  name="host_url"
+                  value="https%3A%2F%2Fpublic.tableau.com%2F"
+                />
+                <param name="embed_code_version" value="3" />
+                <param name="site_root" value="" />
+                <param name="name" value="Book1_17729540953960/Dashboard1" />
+                <param name="tabs" value="no" />
+                <param name="toolbar" value="yes" />
+                <param
+                  name="static_image"
+                  value="https://public.tableau.com/static/images/Bo/Book1_17729540953960/Dashboard1/1.png"
+                />
+                <param name="animate_transition" value="yes" />
+                <param name="display_static_image" value="yes" />
+                <param name="display_spinner" value="yes" />
+                <param name="display_overlay" value="yes" />
+                <param name="display_count" value="yes" />
+                <param name="language" value="en-GB" />
+                <param name="filter" value="publish=yes" />
+              </object>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="story" class="services section light-background">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Interactive Story</h2>
+          <p>
+            Follow a guided narrative of market movements and housing feature
+            patterns.
+          </p>
+        </div>
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="viz-card">
+            <div
+              class="tableauPlaceholder"
+              id="viz1772955286637"
+              style="position: relative"
+            >
+              <noscript>
+                <a href="#">
+                  <img
+                    alt="Story 1"
+                    src="https://public.tableau.com/static/images/Bo/Book1_17729540953960/Story1/1_rss.png"
+                    style="border: none"
+                  />
+                </a>
+              </noscript>
+              <object class="tableauViz" style="display: none">
+                <param
+                  name="host_url"
+                  value="https%3A%2F%2Fpublic.tableau.com%2F"
+                />
+                <param name="embed_code_version" value="3" />
+                <param name="site_root" value="" />
+                <param name="name" value="Book1_17729540953960/Story1" />
+                <param name="tabs" value="no" />
+                <param name="toolbar" value="yes" />
+                <param
+                  name="static_image"
+                  value="https://public.tableau.com/static/images/Bo/Book1_17729540953960/Story1/1.png"
+                />
+                <param name="animate_transition" value="yes" />
+                <param name="display_static_image" value="yes" />
+                <param name="display_spinner" value="yes" />
+                <param name="display_overlay" value="yes" />
+                <param name="display_count" value="yes" />
+                <param name="language" value="en-GB" />
+                <param name="filter" value="publish=yes" />
+              </object>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="insights" class="services-2 section light-background">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Related Analysis</h2>
+          <p>Key focus areas to interpret the housing market effectively.</p>
+        </div>
+
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-item d-flex position-relative h-100">
+                <i class="bi bi-graph-up-arrow icon flex-shrink-0"></i>
+                <div>
+                  <h4 class="title">Price Distribution</h4>
+                  <p class="description">
+                    Understand average, median, and spread of sale prices across
+                    property groups.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-item d-flex position-relative h-100">
+                <i class="bi bi-house-door icon flex-shrink-0"></i>
+                <div>
+                  <h4 class="title">Feature Impact</h4>
+                  <p class="description">
+                    Compare how bedrooms, bathrooms, floors, and living area
+                    affect market value.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-item d-flex position-relative h-100">
+                <i class="bi bi-geo-alt icon flex-shrink-0"></i>
+                <div>
+                  <h4 class="title">Location Patterns</h4>
+                  <p class="description">
+                    Identify high-value zones through zipcode groups and
+                    geographic coordinates.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="service-item d-flex position-relative h-100">
+                <i class="bi bi-tools icon flex-shrink-0"></i>
+                <div>
+                  <h4 class="title">Renovation Effects</h4>
+                  <p class="description">
+                    Evaluate how renovation status and years since renovation
+                    influence pricing trends.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container" data-aos="fade-up">
+          <div class="project-note">
+            <h3>Project Context</h3>
+            <p>
+              Built for visual exploration of housing market behavior using interactive Tableau analytics and narrative storytelling.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+      function setVizSizeByContainer(vizId, options) {
+        var container = document.getElementById(vizId);
+        if (!container) return;
+
+        var vizObject = container.getElementsByTagName("object")[0];
+        if (!vizObject) return;
+
+        if (options.mode === "ratio") {
+          vizObject.style.width = "100%";
+          vizObject.style.height = container.offsetWidth * options.ratio + "px";
+          return;
+        }
+
+        if (container.offsetWidth > 800) {
+          vizObject.style.width = options.desktop.width;
+          vizObject.style.height = options.desktop.height;
+        } else if (container.offsetWidth > 500) {
+          vizObject.style.width = options.tablet.width;
+          vizObject.style.height = options.tablet.height;
+        } else {
+          vizObject.style.width = options.mobile.width;
+          vizObject.style.height = options.mobile.height;
+        }
+      }
+
+      function loadTableauApiAndInit() {
+        setVizSizeByContainer("viz1772955095039", {
+          mode: "breakpoint",
+          desktop: { width: "1524px", height: "795px" },
+          tablet: { width: "1524px", height: "795px" },
+          mobile: { width: "100%", height: "1277px" },
+        });
+
+        setVizSizeByContainer("viz1772955286637", {
+          mode: "ratio",
+          ratio: 0.75,
+        });
+
+        var scriptElement = document.createElement("script");
+        scriptElement.src = "https://public.tableau.com/javascripts/api/viz_v1.js";
+        document.body.appendChild(scriptElement);
+      }
+
+      window.addEventListener("load", loadTableauApiAndInit);
+      window.addEventListener("resize", function () {
+        setVizSizeByContainer("viz1772955095039", {
+          mode: "breakpoint",
+          desktop: { width: "1524px", height: "795px" },
+          tablet: { width: "1524px", height: "795px" },
+          mobile: { width: "100%", height: "1277px" },
+        });
+
+        setVizSizeByContainer("viz1772955286637", {
+          mode: "ratio",
+          ratio: 0.75,
+        });
+      });
+    </script>
+  </body>
+</html>
